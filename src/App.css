@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+body {
+  background-color: #D3D3D3;
+	margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  margin: 4px 0;
+  font-size: 14.5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.date {
+ margin-left: auto;
+ margin-bottom: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.diamond{
+  margin-left: 1%;
+}
+.top-subtitle {
+  margin-bottom: 1%;
+}
+.subtitle-slot {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  flex: 1;
+  margin-bottom:1%;
 }
 
-.App-link {
-  color: #61dafb;
+.subtitle {
+  font-size: 1rem;
+  font-weight: bold;
+  color:rgb(8, 79, 117);
+  margin-bottom: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App {
+  position: relative;
+}
+.NavBar {
+  display: flex;
+  flex-direction: row;
+}
+
+.MyName {
+  font-size: 2rem;
+  font-weight:bold;
+}
+.Snowflake {
+  color: #fff;
+  opacity: 0;
+  animation: fall 10s linear infinite;
+   z-index: 2; /* if snowflakes overlap */
+}
+
+.Container {
+  display: flex;
+  flex-direction: column; /* stack children vertically */
+  padding-top:5px;
+  padding-left:25%;
+  padding-right:25%;
+  padding-bottom:2%;
+}
+.BottomSection {
+  display:flex;
+  flex-direction:row;
+}
+/* Container for header image */
+.Header {
+  flex: 1;
+  width: 100%;
+  height: 20vh; /* Ensures content below respects this space */
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* Image itself */
+.header-image {
+  width: 100%;             /* Change to 100%, 60%, etc. */
+  text-align: center;
+  height: 17vh;
+  opacity: 0.95;          /* Slight transparency */
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Title styling */
+.header-title {
+  font-size: 1.5em;
+  color: black;
+  margin-top: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.side-text {
+  margin-bottom: 18px;
+}
+.side-rectangle {
+  width: 55vh;
+   height: auto;
+    align-self: stretch; /* make sure it fills parent's height */
+  background: linear-gradient(
+    to bottom,
+    rgb(198, 202, 202),
+    rgb(178, 181, 181)
+  );
+  opacity: 0.8;
+  padding: 20px;
+  position: relative;
+  z-index: 0;
+  
+  margin-top: 10px;
+  margin-left: auto; /* <-- pushes it to the right */
+  margin-right: 0;   /* optional, just to be explicit */
+}
+
+.profile-image {
+  width: 100%;             /* Change to 100%, 60%, etc. */
+  text-align: center;
+  height: 18vh;
+  opacity: 0.95; 
+  margin: 10px 10px 2px 2px; 
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
   }
 }
