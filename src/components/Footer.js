@@ -33,17 +33,15 @@ const Footer = () => {
             src={githubIcon}
             alt="GitHub"
             style={iconStyle}
-            onMouseOver={(e) => (e.currentTarget.style.filter = "brightness(0) saturate(100%) invert(66%) sepia(13%) saturate(1624%) hue-rotate(70deg) brightness(98%) contrast(90%)")}
-            onMouseOut={(e) => (e.currentTarget.style.filter = "none")}
           />
         </a>
       </div>
 
 <div style={{marginTop: "10px"}}>
         <p style={{fontSize: "12px"}}>
-    ☁️ Snow animation adapted from{" "}
+    ☁️ Snow animation adapted from{" "}3
     <a
-        href="https://www.youtube.com/watch?v=abc123"
+        href="https://www.youtube.com/watch?v=SrHoCz1Pwa8"
         style={{ color: "black", textDecoration: "underline" }}
         target="_blank"
         rel="noopener noreferrer"

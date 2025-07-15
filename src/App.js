@@ -114,9 +114,9 @@ class App extends React.Component {
         imageSrc={idmImg}
         title="IDONTMIND"
         links={{
-          ideation: "https://example.com/ideation",
-          figma: "https://figma.com/example",
-          code: "https://github.com/example/portfolio-generator",
+          ideation: "https://lablueprint.org/projects/idontmind",
+          figma: "https://www.figma.com/proto/Goc2z8Dh48YCUURW6mFG5q/Designs?node-id=3982-4643&t=o6z4TqRWTdbswXx5-1",
+          code: "https://github.com/lablueprint/idontmind",
         }}
       />
 
@@ -124,9 +124,9 @@ class App extends React.Component {
         imageSrc={sraaImg}
         title="SRAA"
         links={{
-          ideation: "https://example.com/ideation",
-          figma: "https://figma.com/example",
-          code: "https://github.com/example/portfolio-generator",
+          ideation: "https://lablueprint.org/projects/sraa",
+          figma: "https://www.figma.com/file/xTqoSZo77qaLM38N8k9qW7/Designs?type=design&node-id=25%3A448&mode=design&t=4Wyent7o7qEylY35-1",
+          code: "https://github.com/lablueprint/skid-row-arts-alliance/",
         }}
       />
 
