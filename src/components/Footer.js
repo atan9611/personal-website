@@ -18,17 +18,17 @@ const Footer = () => {
       {/* Icons Row */}
       <div style={{ display: "flex", justifyContent: "center", gap: "32px" }}>
         {/* Email */}
-        <a href="mailto:your-email@example.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:angelatan222@outlook.com" target="_blank" rel="noopener noreferrer">
           <img src={emailIcon} alt="Email" style={iconStyle} />
         </a>
 
         {/* LinkedIn */}
-        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/angela-tan-221892251/" target="_blank" rel="noopener noreferrer">
           <img src={linkedinIcon} alt="LinkedIn" style={iconStyle} />
         </a>
 
         {/* GitHub - hover effect: light green */}
-        <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/atan9611" target="_blank" rel="noopener noreferrer">
           <img
             src={githubIcon}
             alt="GitHub"
