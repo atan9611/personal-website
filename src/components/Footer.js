@@ -39,7 +39,7 @@ const Footer = () => {
 
 <div style={{marginTop: "10px"}}>
         <p style={{fontSize: "12px"}}>
-    ☁️ Snow animation adapted from{" "}3
+    ☁️ Snow animation adapted from{" "}
     <a
         href="https://www.youtube.com/watch?v=SrHoCz1Pwa8"
         style={{ color: "black", textDecoration: "underline" }}
